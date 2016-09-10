@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1462796221 source:e:\codeblocks\platformer game\entity.cpp
+	"entity.h"
+	"player.h"
+	<iostream>
+
+1462808488 e:\codeblocks\platformer game\entity.h
+	<SFML/Graphics.hpp>
+
+1470981384 source:e:\codeblocks\platformer game\maingame.cpp
+	<iostream>
+	<vector>
+	"entity.h"
+	"player.h"
+	"projectile.h"
+	"enemy.h"
+	"random.h"
+	"pickup.h"
+	"textDisplay.h"
+	"wall.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cstdlib>
+	<ctime>
+	<string>
+
+1470850490 e:\codeblocks\platformer game\player.h
+	"entity.h"
+	<SFML/Graphics.hpp>
+
+1463920058 source:e:\codeblocks\platformer game\player.cpp
+	"player.h"
+	"entity.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1467992419 source:e:\codeblocks\platformer game\projectile.cpp
+	<iostream>
+	"projectile.h"
+	"entity.h"
+	<SFML/Graphics.hpp>
+
+1467882820 e:\codeblocks\platformer game\projectile.h
+	"entity.h"
+
+1467828242 source:e:\codeblocks\platformer game\enemy.cpp
+	"enemy.h"
+	"entity.h"
+	"random.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+	<vector>
+
+1468163239 e:\codeblocks\platformer game\enemy.h
+	"entity.h"
+	"random.h"
+	<vector>
+	<SFML/Graphics.hpp>
+
+1463039723 e:\codeblocks\platformer game\random.h
+	<iostream>
+
+1462975143 e:\codeblocks\platformer game\random.cpp
+	"random.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1463153173 source:e:\codeblocks\platformer game\random.cpp
+	"random.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1463299073 source:e:\codeblocks\platformer game\textdisplay.cpp
+	"textDisplay.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1463329657 e:\codeblocks\platformer game\textdisplay.h
+	"entity.h"
+	<string>
+
+1468086933 e:\codeblocks\platformer game\pickup.h
+	"entity.h"
+
+1468089754 source:e:\codeblocks\platformer game\pickup.cpp
+	"pickup.h"
+	<SFML/Graphics.hpp>
+
+1467882272 source:e:\codeblocks\platformer game\wall.cpp
+	"wall.h"
+
+1467882143 e:\codeblocks\platformer game\wall.h
+	"entity.h"
+
